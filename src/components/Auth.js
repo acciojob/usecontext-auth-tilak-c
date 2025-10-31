@@ -9,7 +9,7 @@ const Auth=()=>{
         onChange={toggleAuth}
         />
         I'm not a robot
-        <p>{isAuthenticated?"You are now authenticated, you can proceed":"you are not authenticated"}</p>
+        <p className='authText'>{isAuthenticated?"You are now authenticated, you can proceed":"you are not authenticated"}</p>
         </div>
     );
 }
